@@ -1,5 +1,5 @@
 function bishopAndPawn(bishop, pawn) {
-
+	// added first random to avoid indexing naturality
     charArr=['XXX','a','b','c','d','e','f','g','h']
     
      var bsh= charArr.indexOf(bishop[0])+bishop[1]
