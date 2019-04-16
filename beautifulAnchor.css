@@ -1,0 +1,14 @@
+a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    background-color: #0079c1;
+    transition: width 0.5s;
+}
+
+a:hover:after{
+   
+    width: 100%;
+    
+}
